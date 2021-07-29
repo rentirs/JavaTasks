@@ -1,8 +1,8 @@
-package ru.eduprof.sdo.android.task1_3;
+package ru.eduprof.sdo.android.lesson1.task3;
 /* Объяви переменные a, b типа int и переменную s типа String.
 Сразу же в строке объявления присвой им любые разные значения. */
 
-public class Task1_3 {
+public class Main {
     public static void main(String[] args) {
         int a = 5;
         int b = 7;

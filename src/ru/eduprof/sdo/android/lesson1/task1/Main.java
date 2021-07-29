@@ -1,6 +1,6 @@
-package ru.eduprof.sdo.android.task1_1;
+package ru.eduprof.sdo.android.lesson1.task1;
 
-public class Task1_1 {
+public class Main {
     public static void main(String[] args) {
         String name;
         int age;

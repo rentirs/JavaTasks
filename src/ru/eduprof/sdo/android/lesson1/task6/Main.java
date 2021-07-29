@@ -1,8 +1,8 @@
-package ru.eduprof.sdo.android.task1_6;
+package ru.eduprof.sdo.android.lesson1.task6;
 
 import java.util.Scanner;
 
-public class Task1_6 {
+public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите число: ");

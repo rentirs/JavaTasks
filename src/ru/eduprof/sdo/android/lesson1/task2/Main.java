@@ -1,4 +1,4 @@
-package ru.eduprof.sdo.android.task1_2;
+package ru.eduprof.sdo.android.lesson1.task2;
 
 /*
 Закомментируй ненужные строки кода, чтобы на экран вывелась надпись:
@@ -6,7 +6,7 @@ package ru.eduprof.sdo.android.task1_2;
 Примечание: комментировать строки с объявлением переменных нельзя.
 */
 // Пример комментария
-public class Task1_2 {
+public class Main {
     public static void main(String[] args) {
         int a = 3;
         int b = 2;
