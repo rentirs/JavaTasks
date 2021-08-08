@@ -1,15 +1,15 @@
 package ru.eduprof.sdo.android.lesson5.hotel;
 
 public class Room {
-    private boolean wc;
-    private int sleepingPlace;
-    private boolean conditioner;
-    private boolean wifi;
-    private int roomNumber;
+    private final boolean wc;
+    private final int sleepingPlace;
+    private final boolean conditioner;
+    private final boolean wifi;
+    private final int roomNumber;
     private boolean reserved;
-    Room(boolean wc, int sleepinPlace, boolean conditioner, boolean wifi, int roomNumber){
+    Room(boolean wc, int sleepingPlace, boolean conditioner, boolean wifi, int roomNumber){
         this.conditioner = conditioner;
-        this.sleepingPlace = sleepinPlace;
+        this.sleepingPlace = sleepingPlace;
         this.wc = wc;
         this.wifi = wifi;
         this.roomNumber = roomNumber;
@@ -32,31 +32,16 @@ public class Room {
         return wc;
     }
 
-    public void setWc(boolean wc) {
-        this.wc = wc;
-    }
-
     public int getSleepingPlace() {
         return sleepingPlace;
-    }
-
-    public void setSleepingPlace(int sleepingPlace) {
-        this.sleepingPlace = sleepingPlace;
     }
 
     public boolean isConditioner() {
         return conditioner;
     }
 
-    public void setConditioner(boolean conditioner) {
-        this.conditioner = conditioner;
-    }
-
     public boolean isWifi() {
         return wifi;
     }
 
-    public void setWifi(boolean wifi) {
-        this.wifi = wifi;
-    }
 }
