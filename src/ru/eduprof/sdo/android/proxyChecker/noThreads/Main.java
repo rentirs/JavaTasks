@@ -1,4 +1,4 @@
-package ru.eduprof.sdo.android.proxyChecker;
+package ru.eduprof.sdo.android.proxyChecker.noThreads;
 
 import java.io.*;
 import java.net.HttpURLConnection;
@@ -60,7 +60,7 @@ public class Main {
             }
             System.out.println("Получен ответ, наш ip: " + response);
             return true;
-            //rd.close();
+            //rd.close(); с этой строкой почему-то не работает
         } catch (IOException e) {
             System.out.println("Нерабочий ip");
             return false;
